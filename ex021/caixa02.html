@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #6C8EAD;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.425);
+        }
+
+        nav {
+            background-color: #6C534E;
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.479);
+        }
+
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: #E6CCBE;
+            padding: 5px;
+        }
+
+        .TituloN {
+            color: #001A23;
+        }
+
+        #Assuntos  {
+            background-color: #E6CCBE;
+            color: #001A23;
+        }
+
+        article > aside {
+            background-color: #4AACD6;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #6C534E;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            border-radius: 5px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>    
+        <a href="#">Link</a>    
+        <a href="#">Link</a>
+        <a href="#">Link</a>   
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            <h2>Esportes, Politica, Tecnologia</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quidem quis ipsum fugit repellendus odio quam nemo dolorem rem aliquam architecto excepturi vitae dolor in, doloribus sit expedita. Obcaecati, rerum?</p>
+        </section>
+        <section id="Noticias">
+            <article>
+                <h2 class="TituloN">Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, quibusdam adipisci quaerat ipsam iste magni harum quam excepturi, dolorem necessitatibus repellendus esse provident quisquam! Officiis pariatur vel nostrum similique non.</p>
+                <aside>Artigo escrito por Fulano</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desevolvido por mim mesmo</p>
+    </footer>
+</body>
+</html>
